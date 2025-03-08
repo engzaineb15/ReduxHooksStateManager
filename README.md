@@ -4,12 +4,12 @@ This is a React Native project demonstrating state management using Redux Toolki
 📚 Resources Used
 Here are some helpful materials I used while building this project:
 
-🎥 Video Tutorial: React Hooks & Redux Toolkit
+🎥 Video Tutorial: https://www.youtube.com/watch?v=B7weZ4ZHd18
 📖 Hooks Cheatsheets:
-Interactive Hooks Cheatsheet
-React Hooks PDF Guide
+https://react-hooks-cheatsheet.com/
+https://github.com/infinum/js-talks/blob/master/talks-15/react-hooks.pdf
 📜 Redux Toolkit Reference:
-Redux Toolkit Guide
+https://github.com/anisul-Islam/redux-toolkit-doc?tab=readme-ov-file#10-redux-toolkit-counter-app
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
