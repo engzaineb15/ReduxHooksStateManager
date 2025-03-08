@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState ,createContext} from 'react';
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
 import Counter from './src/Counter'; 
+
+
+export  const AppContext = createContext(0);
 
 const App = () => {
   //first we use local state to store the count value (useState)
   const [count, setCount] = useState(0);
   // how it works in background
-  console.log('count', count);
 
   const handleIncrement = () => {setCount(prevState => prevState + 1);};
   const handleDecrement = () => {
@@ -15,13 +17,19 @@ const App = () => {
     ;};
 
 
-    
+
+
+    // Second way  use global state (Context API)
+
+  
+
 
 
 
   return (
+    <AppContext.Provider value={count}>
     <View style={styles.container}>
-      <Counter count={count} />
+      <Counter />
       <View style={styles.buttonContainer}>
         <TouchableOpacity style={styles.button} onPress={() => handleIncrement()}>
           <Text style={styles.buttonText}>+</Text>
@@ -31,6 +39,7 @@ const App = () => {
         </TouchableOpacity>
       </View>
     </View>
+    </AppContext.Provider>
   );
 };
 
