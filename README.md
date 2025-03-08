@@ -1,3 +1,10 @@
+material i use :
+
+video : https://www.youtube.com/watch?v=B7weZ4ZHd18
+Hooks cheatsheet  : https://react-hooks-cheatsheet.com/ -- https://github.com/infinum/js-talks/blob/master/talks-15/react-hooks.pdf
+Redux Sheet : https://github.com/anisul-Islam/redux-toolkit-doc?tab=readme-ov-file#10-redux-toolkit-counter-app
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
